@@ -7,9 +7,19 @@ import axios from 'axios';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  test = "This is test variable"
-}
+  test = 'This is test variable';
 
+  // data = axios
+  //   .get('https://tokutake-api.myfoot.info/api/v1/contact-types/', {
+  //     headers: {
+  //       Accept: 'application/json',
+  //       'Content-Type': 'application/json',
+  //       'X-Requested-With': 'XMLHttpRequest'
+  //     }
+  //   })
+  //   .then(val => console.log(val))
+  //   .catch(() => console.log('catch'));
+}
 
 /*
 Copyright Google LLC. All Rights Reserved.
