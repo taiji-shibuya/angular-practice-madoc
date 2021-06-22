@@ -1,5 +1,11 @@
+.user-container {
+  background-color: #eee;
+}
 
-
+.user-id {
+  font-weight: bold;
+  font-size: 26px;
+}
 
 /*
 Copyright Google LLC. All Rights Reserved.

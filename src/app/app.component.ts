@@ -8,7 +8,12 @@ import axios from 'axios';
 })
 export class AppComponent {
   test = 'This is test variable';
-
+  data = [
+    {
+      id: 1,
+      name: 'testName'
+    }
+  ];
   // data = axios
   //   .get('https://tokutake-api.myfoot.info/api/v1/contact-types/', {
   //     headers: {

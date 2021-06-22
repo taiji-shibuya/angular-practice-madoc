@@ -2,7 +2,12 @@
 <div class="container">
   <router-outlet></router-outlet>
   <h1>{{ test }}</h1>
-  <h1>{{ data }}</h1>
+</div>
+<div class="user-container">
+  <div *ngFor="let item of data">
+    <div class="user-id">ID : {{item.id}}</div>
+    <div class="user-name">NAME : {{item.name}}</div>
+  </div>
 </div>
 
 <!-- 
